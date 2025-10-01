@@ -1,0 +1,30 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+.Class1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.Class1 h1{
+    font-size:100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background:repeating-linear-gradient(90deg,green,red, yellow,blue, green,red, yellow,blue, green,red, yellow,blue, green,red, yellow,blue, green,red, yellow,blue, green);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 10s linear infinite forwards;
+}
+@keyframes slide {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 600vw;
+    }   
+}

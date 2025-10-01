@@ -1,0 +1,50 @@
+<html><!--SIGNIN-->
+    <head>
+        <link rel="stylesheet" href="StylesSheets.css"/>
+    </head>
+    <body>
+        <div id="TopOf">
+
+        </div>
+        <div id="navigation_bar"><!--this is the navigation bar at the top of the page-->
+            <nav>
+                <ul>
+                    <li><a href="./HomePage.HTML">Home</a></li>
+                    <li><a href="./StorePage.HTML">women</a></li>
+                    <li><a href="./StorePage.HTML">men</a></li>
+                    <li>
+                        <div id="search_bar">
+                            <p>Insert search bar here</p>
+                        </div>
+                    </li>
+                    <li style="float:right"><a href="./SignInPage.HTML">sign in</a></li>
+                    <li style="float:right"><a href="./StorePage.HTML">saved</a></li>
+                    <li style="float:right"><a href="./ShoppingOut.HTML">shopping cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="form">
+            <form>
+                <fieldset id="Signing">
+                    <h1 style="text-align: center;">Username and Password</h1>
+                    <section id="userDetails">
+                        <!--this is for the user to input their name-->
+                        <label name="Name" for="text1">Name:</label>
+                        <input type="text" name="text1" id="selectBox" required/>
+                        <br/>
+                        <br/>               
+                        <!--This is to inpiut yout password-->
+                        <label name="pw-name" for="pasword-n">Password:</label>
+                        <input type="password" name="pasword-n" id="selectBox" pattern="[A-Za-z0-9]{5,}" title="Eight or more characters with numbers" required />
+                    </section>
+                    <section><!-- thi sis for the submit buttons-->
+                        <a style="font-size: small" href="">Forgotten your password?</a><!--sends user to the passowrd reset page-->
+                        <input  type="button" id="submit" >
+
+                    </section>
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
