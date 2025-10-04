@@ -25,7 +25,7 @@
         </div>
         <div id="form">
             <form>
-                <fieldset id="Signing">
+                <fieldset class="Signing">
                     <h1 style="text-align: center;">Username and Password</h1>
                     <section id="userDetails">
                         <!--this is for the user to input their name-->
@@ -38,8 +38,13 @@
                         <input type="password" name="pasword-n" id="selectBox" pattern="[A-Za-z0-9]{5,}" title="Eight or more characters with numbers" required />
                     </section>
                     <section><!-- thi sis for the submit buttons-->
+                        <br/>
                         <a style="font-size: small" href="">Forgotten your password?</a><!--sends user to the passowrd reset page-->
-                        <input  type="button" id="submit" >
+                        
+                        <button style="float: right" id="SIGNIN">Sign in</button>
+                        <br/>
+                        <br/>
+                        <a style="font-size: small" href="">Don't have an account? Sign up!</a>
 
                     </section>
                 </fieldset>
